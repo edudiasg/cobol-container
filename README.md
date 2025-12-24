@@ -36,6 +36,10 @@ make image   # build the gnucobol-base image
 - Example: `ex01.cbl` reads `data/input/ex01.dat` and writes `data/output/ex01.out`.
 - For new programs/files, update the `SELECT ... ASSIGN TO` paths accordingly.
 
+## Example program: ex01
+- Purpose: read each line from `data/input/ex01.dat`, apply a 10% salary increase, write the updated record to `data/output/ex01.out`, and DISPLAY the name + formatted salary on screen.
+- Try it: `make run program=ex01` (after `make image` once). Output file lands in `data/output/ex01.out` and console shows the DISPLAY messages plus `program exit code: 0` on success.
+
 ## Notes
 - The `.:/usr/src/app` volume lets the container see the whole project, including the `Makefile`.
 - If something loops, check file paths and the reported `program exit code: ...`.
