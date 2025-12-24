@@ -1,0 +1,7 @@
+bin/
+!bin/.gitkeep
+data/output/
+.vscode/
+*.out
+.DS_Store
+*.swp

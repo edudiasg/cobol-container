@@ -1,0 +1,12 @@
+services:
+  cobol:
+    build: .
+    image: gnucobol-base
+    environment:
+      - RUNNING_IN_DOCKER=1
+    volumes:
+      - .:/usr/src/app
+    working_dir: /usr/src/app
+    command: bash
+    stdin_open: true
+    tty: true
