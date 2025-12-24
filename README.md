@@ -1,4 +1,4 @@
-# COBOL Project
+# COBOL Container - Ready to run with makefile
 
 Dockerized environment to build and run COBOL programs with GNUCobol, using `make` to orchestrate everything inside the container.
 
